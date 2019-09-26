@@ -21,7 +21,7 @@ namespace server {
         SOCKET ClientSocket;
     };
 
-    //devuelve ListenSocket y ClientSocket por referencia
+    //devuelve ListenSocket y ClientSocket a traves del struct
     sockets _initListenSocket(const char* PORT) {
 
         sockets sockets;
